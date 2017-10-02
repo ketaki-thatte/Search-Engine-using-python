@@ -1,4 +1,4 @@
-<h2> Search-Engine-using-python </h2> 
+#Search-Engine-using-python
 <p>
 I have implemented this search engine using python which asks user to enter search query and based on the query parameter I am returning the relevant. I am returning the pages in descending order of occurrence of the query in the page. To have multiple documents for quering I have downloaded CS syllabus links file present in Stevens Intranet.
 </p>
@@ -13,8 +13,8 @@ The implementation of my search engine contains an inverted index with a data st
 The overall system is distributed into three main modules which are:
 
 <li> Stevens Intranet and Web Crawler </li>
-<li>Corpus </li>
-</li>Search Engine </li> 
+<li> Corpus </li>
+<li>Search Engine </li> 
 
 <p>
 Web Crawler crawls the syllabus links on the intranet and convert the syllabus xml files into text files. Corpus is dictionary of all names of text files in which we are searching matching query. Search Engine is a Dictionary containing all the unique words as keys present in all documents which has value, which is also a dictionary containing key as document number and number of occurrences of the word in that document.
